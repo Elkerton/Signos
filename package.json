@@ -4,6 +4,7 @@
   "description": "signos redehost",
   "main": "index.js",
   "scripts": {
+    "start" : "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Elkerton Rodrigues",
@@ -13,5 +14,5 @@
     "ejs": "^2.5.1",
     "express": "^4.14.0",
     "mongoose": "^4.5.7"
-  }
+  } 
 }
