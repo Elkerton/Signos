@@ -44,5 +44,5 @@ app.post('/signos/:id', (req, res) => {
 app.listen(3002, () => {
     console.log('listening in ' + 3002);
 
-    mongoose.connect('mongodb://signoselkerton.herokuapp.com/signos');
+    mongoose.connect('http://187.84.234.178/signos');
 });
